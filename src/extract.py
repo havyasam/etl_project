@@ -7,8 +7,8 @@ REQUIRED_COLUMNS = [
 ]
 
 
-def extraction_of_data():
-    df = pd.read_csv(r"C:\Users\DELL\Desktop\etl_pipeline\data\clinical_trials.csv")
+def extraction_of_data(file_path):
+    df = pd.read_csv(file_path)
     
     missing_columns = set(REQUIRED_COLUMNS) - set(df.columns)
     
@@ -17,5 +17,3 @@ def extraction_of_data():
         raise ValueError(f"Missing columns: {missing_columns}")
     
     return df
-
-extraction_of_data()

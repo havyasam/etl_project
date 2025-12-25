@@ -1,14 +1,15 @@
 import pandas as pd
 
-file_path = pd.read_csv(r"C:\Users\DELL\Desktop\etl_pipeline\data\clinical_trials.csv")
 
 def transforming_data(df):
    
     
     df = df.drop_duplicates()
     
-    df = df.dropna(subset = ["trial_id","patient_id","drug_name","phase","start_date","end_date","outcome","adverse_events","dosage_mg","compliance_pct"])
-    df["age"] = df["age"].fillna("unknown")
+    df = df.dropna(subset = ["trial_id","patient_id","age","drug_name","phase","start_date","end_date","outcome","adverse_events","dosage_mg","compliance_pct"])
+
+  
+
     df["gender"] = df["gender"].fillna("unknown")
     df["trial_site"] = df["trial_site"].fillna("unknown")
     
@@ -22,7 +23,7 @@ def transforming_data(df):
     
     df["trail_duration_days"] = df["end_date"] - df["start_date"]
     
+    return df
 
-transforming_data(file_path)
     
     

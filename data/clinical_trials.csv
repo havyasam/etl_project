@@ -1,0 +1,26 @@
+trial_id,patient_id,age,gender,drug_name,phase,trial_site,start_date,end_date,outcome,adverse_events,dosage_mg,compliance_pct
+T1001,P001,45,M,Atorvastatin,Phase 2,Bangalore,2024-01-15,2024-06-15,Improved,No,20,95
+T1002,P002,60,F,Metformin,Phase 3,Hyderabad,2024-02-01,2024-08-01,Stable,Yes,500,88
+T1003,P003,38,M,Ibuprofen,Phase 1,Chennai,2024-03-10,2024-05-20,Improved,No,200,
+T1004,P004,52,F,Remdesivir,Phase 3,Mumbai,2024-01-25,2024-09-10,Recovered,Yes,100,92
+T1005,P005,,F,Paracetamol,Phase 1,Delhi,2024-04-01,2024-06-30,Stable,No,500,85
+T1006,P006,47,M,Atorvastatin,Phase 2,Bangalore,2024-05-15,2024-10-10,Improved,No,20,90
+T1007,P007,61,F,Metformin,Phase 3,Hyderabad,2024-06-01,2024-11-15,Recovered,Yes,500,87
+T1008,P008,39,M,Ibuprofen,Phase 1,Chennai,2024-07-05,2024-09-30,Stable,No,200,93
+T1006,P006,47,M,Atorvastatin,Phase 2,Bangalore,2024-05-15,2024-10-10,Improved,No,20,90
+T1009,P009,55,,Remdesivir,Phase 3,Mumbai,2024-02-10,2024-07-30,Recovered,Yes,100,89
+T1010,P010,44,F,Paracetamol,Phase 2,Delhi,2024-03-05,2024-07-05,Stable,No,650,91
+T1011,P011,36,M,Ibuprofen,Phase 1,Chennai,2024-04-12,2024-06-20,Improved,No,200,88
+T1012,P012,58,F,Metformin,Phase 3,Hyderabad,2024-05-18,2024-10-20,Recovered,Yes,500,86
+T1013,P013,49,M,Atorvastatin,Phase 2,Bangalore,2024-06-10,2024-11-10,Improved,No,20,92
+T1014,P014,62,F,Remdesivir,Phase 3,Mumbai,2024-07-01,2024-12-01,Recovered,Yes,100,84
+T1015,P015,41,M,Paracetamol,Phase 1,Delhi,2024-08-05,2024-10-25,Stable,No,500,89
+T1016,P016,34,F,Ibuprofen,Phase 1,Chennai,2024-09-10,2024-11-20,Improved,No,200,90
+T1017,P017,57,M,Metformin,Phase 3,Hyderabad,2024-03-20,2024-09-20,Recovered,Yes,500,85
+T1018,P018,63,F,Remdesivir,Phase 3,Mumbai,2024-02-15,2024-08-15,Recovered,Yes,100,88
+T1019,P019,46,M,Atorvastatin,Phase 2,Bangalore,2024-01-20,2024-07-20,Improved,No,20,94
+T1020,P020,40,F,Paracetamol,Phase 1,Delhi,2024-04-15,2024-07-15,Stable,No,500,90
+T1021,P021,35,M,Ibuprofen,Phase 1,Chennai,2024-05-10,2024-08-10,Improved,No,200,87
+T1022,P022,59,F,Metformin,Phase 3,Hyderabad,2024-06-05,2024-12-05,Recovered,Yes,500,86
+T1023,P023,48,M,Atorvastatin,Phase 2,Bangalore,2024-07-12,2024-12-12,Improved,No,20,93
+T1024,P024,64,F,Remdesivir,Phase 3,Mumbai,2024-08-01,2025-01-01,Recovered,Yes,100,85
